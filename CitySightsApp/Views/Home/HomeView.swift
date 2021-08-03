@@ -30,17 +30,22 @@ struct HomeView: View {
                             
                             Spacer()
                             
-                            Text("Switch to map view")
+                            Button("Switch to map view") {
+                                self.isMapShowing = true
+                            }
                         }
                         
                         Divider()
                         
                         BusinessList()
+                        
                     }
                     .padding([.horizontal, .top])
                     .navigationBarHidden(true)
                 } else {
                     //Show map
+                    BusinessMap()
+                        .ignoresSafeArea()
                 }
             }
             
