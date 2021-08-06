@@ -150,6 +150,7 @@
 				4070043E26B4533B00F8ADAC /* HomeView.swift */,
 				4070045626B9884600F8ADAC /* Map */,
 				4070044126B4563D00F8ADAC /* List */,
+				4070044F26B8722E00F8ADAC /* Detail */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -161,7 +162,6 @@
 				4070044626B4584300F8ADAC /* BusinessSectionHeader.swift */,
 				4070044926B458E100F8ADAC /* BusinessSection.swift */,
 				4070044C26B4694700F8ADAC /* BusinessRow.swift */,
-				4070044F26B8722E00F8ADAC /* Detail */,
 			);
 			path = List;
 			sourceTree = "<group>";
